@@ -15,7 +15,11 @@ A lightweight, native macOS clipboard history manager built with Swift and Swift
 
 ## 🚀 Installation
 
-### Option 1: Build from Source (Recommended)
+### Option 1: Download Prebuilt App (Coming Soon)
+
+Check the [Releases](https://github.com/risky-bit/clipboard-manager-mac/releases) page for prebuilt `.app` bundles.
+
+### Option 2: Build from Source
 
 **Requirements:**
 - macOS 14.0+ (Sonoma or later)
@@ -25,8 +29,8 @@ A lightweight, native macOS clipboard history manager built with Swift and Swift
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/clipboard.git
-cd clipboard
+git clone https://github.com/risky-bit/clipboard-manager-mac.git
+cd clipboard-manager-mac
 
 # Build the app
 swift build -c release
@@ -40,7 +44,7 @@ open ClipboardManager.app
 
 The app will appear in your menu bar with a clipboard icon 📋
 
-### Option 2: Build with Xcode
+### Option 3: Build with Xcode
 
 1. Open the project in Xcode
 2. Disable App Sandbox (Signing & Capabilities)

@@ -1,6 +1,7 @@
 import Foundation
 
 func log(_ message: String) {
+    #if DEBUG
     let logFile = "/tmp/clipboard_debug.log"
     let timestamp = DateFormatter.localizedString(from: Date(), dateStyle: .none, timeStyle: .medium)
     let logMessage = "[\(timestamp)] \(message)\n"
@@ -13,4 +14,5 @@ func log(_ message: String) {
             try? data.write(to: URL(fileURLWithPath: logFile))
         }
     }
+    #endif
 }

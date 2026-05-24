@@ -1,0 +1,31 @@
+name: ClipboardManager
+options:
+  bundleIdPrefix: com.clipboard
+  deploymentTarget:
+    macOS: "14.0"
+targets:
+  ClipboardManager:
+    type: application
+    platform: macOS
+    sources:
+      - Sources
+    settings:
+      PRODUCT_NAME: ClipboardManager
+      PRODUCT_BUNDLE_IDENTIFIER: com.clipboard.ClipboardManager
+      INFOPLIST_FILE: Info.plist
+      ENABLE_APP_SANDBOX: NO
+      MACOSX_DEPLOYMENT_TARGET: "14.0"
+      SWIFT_VERSION: "5.0"
+      DEVELOPMENT_TEAM: ""
+    info:
+      path: Info.plist
+      properties:
+        CFBundleName: ClipboardManager
+        CFBundleDisplayName: ClipboardManager
+        CFBundleIdentifier: com.clipboard.ClipboardManager
+        CFBundleVersion: "1"
+        CFBundleShortVersionString: "1.0"
+        CFBundlePackageType: APPL
+        LSMinimumSystemVersion: "14.0"
+        LSUIElement: true
+        NSHumanReadableCopyright: ""
