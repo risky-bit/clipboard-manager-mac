@@ -1,0 +1,47 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+xcuserdata/
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# App specific
+/tmp/clipboard_debug.log
+
+# Screenshots for testing
+Clipboard-TEST-*.png
+
+# Build artifacts (keep app bundle structure)
+!ClipboardManager.app/
+!ClipboardManager.app/Contents/
+!ClipboardManager.app/Contents/MacOS/
+!ClipboardManager.app/Contents/Resources/
+!ClipboardManager.app/Contents/Info.plist
+ClipboardManager.app/Contents/MacOS/ClipboardManager
