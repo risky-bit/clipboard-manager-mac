@@ -38,6 +38,9 @@ Icon
 # Screenshots for testing
 Clipboard-TEST-*.png
 
+# Release artifacts
+ClipboardManager-macOS.zip
+
 # Build artifacts (keep app bundle structure)
 !ClipboardManager.app/
 !ClipboardManager.app/Contents/
